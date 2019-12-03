@@ -4,7 +4,7 @@ const db = mongoose.connection;
 const mongoURI = 'mongodb://localhost:27017/students';
 
 
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true }, () => {
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }, () => {
     console.log('the connection with mongod is established')
 })
 
@@ -71,3 +71,8 @@ const studentsObjects = studentsNames.map(student => { return { name: student } 
 
 
 // Remove 'Joseph Rulo'
+
+
+
+
+

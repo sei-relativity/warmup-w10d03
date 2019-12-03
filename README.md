@@ -3,7 +3,7 @@
 
 Populate the `Student` with our Relativity students using the array provided and print their names.
 
-### Relatively there?
+### Relatively There?
 
 Each student should have an `Attending` value which has a default of `true`
 
@@ -14,7 +14,7 @@ Update `foo` and `bar`'s `Attending` value to `false`
 Wait! `Joseph` is no longer a student! remove him from our database at once!
 
 
->Don't forget to run `mongod`, `npm init -y` and `npm i mongoose` before starting.
+>**Don't forget to run `mongod` and `npm install` before starting.**
 
 ---
 
