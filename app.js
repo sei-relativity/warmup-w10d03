@@ -42,7 +42,7 @@ const studentsNames = [
 
 const studentsObjects = studentsNames.map(student => { return { name: student } })
 
-// Populate Database with studentsNames
+// Populate Database with studentsObjects
 
 
 
