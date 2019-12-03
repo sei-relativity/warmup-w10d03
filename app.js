@@ -61,7 +61,7 @@ const studentsObjects = studentsNames.map(student => { return { name: student } 
 
 
 
-// Update '' and '' attendance to false
+// Update `Saud Alshamsi` and `Lamees Alfallaj` attendance to false
 
 
 

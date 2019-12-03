@@ -7,7 +7,7 @@ Populate the `Student` with our Relativity students using the array provided and
 
 Each student should have an `Attending` value which has a default of `true`
 
-Update `foo` and `bar`'s `Attending` value to `false`
+Update `Saud Alshamsi` and `Lamees Alfallaj`'s `Attending` value to `false`
 
 ### Relatively Complete? 
 
