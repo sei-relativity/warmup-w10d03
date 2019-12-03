@@ -45,34 +45,66 @@ const studentsObjects = studentsNames.map(student => { return { name: student } 
 // Populate Database with studentsObjects
 
 
-
-
-
-
+// Student.insertMany(studentsObjects, (error, student) => {
+//         if (error) {
+//             console.log(error)
+//         } else {
+//             console.log(student);
+//         } db.close()
+//     });
 
 
 // Print all students names
 
 
+// Method 1 Print Students Names
+
+// Student.find((err, students) => {
+//     students.forEach(student => {
+//         console.log(student.name);
+//     })
+//     db.close()
+// });
 
 
+// Method 2 Print Students Object
 
-
-
-
+// Student.find((err, student) => {
+//     console.log(student);
+// db.close()
+// });
 
 // Update `Saud Alshamsi` and `Lamees Alfallaj` attendance to false
 
+// Student.findOneAndUpdate({ name: 'Saud Alshamsi' }, { Attendance: false }, (err, student) => {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log(student);
+//     }
+//     db.close()
+// });
 
 
-
-
-
-
+// Student.findOneAndUpdate({ name: 'Lamees Alfallaj' }, { Attendance: false }, (err, student) => {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log(student);
+//     }
+//     db.close()
+// });
 
 // Remove 'Joseph Rulo'
 
-
+// Student.findOneAndRemove({ name: 'Joseph Rulo' }, (err, student) => {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log('This is the deleted student:', student);
+//     }
+//     db.close()
+// });
 
 
 
