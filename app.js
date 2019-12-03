@@ -85,7 +85,7 @@ Student.updateMany(
 );
 
 // Remove 'Joseph Rulo'
-Student.find({ name: "Joseph Rulo" }, (err, students) => {
+Student.findOneAndDelete({ name: "Joseph Rulo" }, (err, students) => {
   console.log("Delete Joseph Rulo");
   if (err) {
     console.log(err);
